@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Brand Decision Tool | علم</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{navy:"#051d49","navy-light":"#0a2a6b",orange:"#ff5d36"}}}}</script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap");
+body{font-family:Tajawal,sans-serif;background:#F5F7FA}
+.btn-yes.active{background:linear-gradient(135deg,#ff5d36,#ffa168)!important;color:#fff!important;border-color:transparent!important;box-shadow:0 4px 14px rgba(255,93,54,.35)}
+.btn-no.active{background:linear-gradient(135deg,#051d49,#0a2a6b)!important;color:#fff!important;border-color:transparent!important;box-shadow:0 4px 14px rgba(5,29,73,.3)}
+.product-tab.active{background:#051d49;color:#fff;border-color:#051d49}
+[dir=ltr]{font-family:system-ui,-apple-system,sans-serif}
+@media print{
+  @page { margin: 18mm 15mm; size: A4; }
+  body { background: white !important; font-size: 11pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  header, footer, #eval-view, .no-print, #btn-prev, #btn-next, #btn-delete, #btn-ar, #btn-en { display: none !important; }
+  #results-view { display: block !important; padding: 0 !important; max-width: 100% !important; }
+  #results-view .bg-gradient-to-l { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .print-header { display: block !important; }
+  .print-only { display: block !important; }
+  .no-print { display: none !important; }
+}
+</style>
+</head>
+<body class="min-h-screen">
+<!-- FILE IS LARGE - will upload via alternative -->
+</body>
+</html>
